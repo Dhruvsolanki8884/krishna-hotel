@@ -157,7 +157,7 @@ function HeroSlider() {
         nextSlide
     ]);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$hotel$2d$krishna$2d$website$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "relative h-[85vh] sm:h-[90vh] md:h-screen w-full overflow-hidden",
+        className: "relative h-[60vh] sm:h-[90vh] md:h-screen w-full overflow-hidden",
         children: [
             slides.map((slide, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$hotel$2d$krishna$2d$website$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$hotel$2d$krishna$2d$website$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("absolute inset-0 transition-all duration-700 ease-in-out", index === currentSlide ? "opacity-100 scale-100" : "opacity-0 scale-105"),

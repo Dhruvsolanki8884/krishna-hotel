@@ -58,7 +58,7 @@ export function HeroSlider() {
   }, [nextSlide])
 
   return (
-    <section className="relative h-[85vh] sm:h-[90vh] md:h-screen w-full overflow-hidden">
+    <section className="relative h-[60vh] sm:h-[90vh] md:h-screen w-full overflow-hidden">
       {/* Slides */}
       {slides.map((slide, index) => (
         <div
