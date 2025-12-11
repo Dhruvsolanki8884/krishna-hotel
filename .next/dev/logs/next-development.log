@@ -1,0 +1,146 @@
+[00:00:04.177] Server  LOG      ✓ Ready in 2.7s
+[00:00:11.970] Server  LOG      ○ Compiling / ...
+[00:00:18.127] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:18.832] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:18.833] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:18.833] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765450745672}
+[00:01:54.895] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765450841713}
+[00:08:21.268] Server  LOG      ✓ Compiled in 1447ms
+[00:08:23.275] Server  LOG      ✓ Compiled in 492ms
+[00:09:55.360] Server  LOG      ✓ Compiled in 216ms
+[00:10:40.291] Server  LOG      ✓ Compiled in 144ms
+[00:11:42.022] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:42.341] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:11:42.341] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/contact","route":"/contact"}
+[00:11:42.341] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765451429171}
+[00:12:37.407] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:37.770] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:12:37.770] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/contact","route":"/contact"}
+[00:12:37.770] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765451484604}
+[00:13:10.022] Server  LOG      ✓ Compiled in 256ms
+[00:13:11.869] Server  LOG      ✓ Compiled in 211ms
+[00:13:14.033] Server  LOG      ✓ Compiled in 167ms
+[00:13:22.623] Server  LOG      ✓ Compiled in 165ms
+[00:13:45.055] Server  LOG      ✓ Compiled in 244ms
+[00:13:49.397] Server  LOG      ✓ Compiled in 208ms
+[00:13:51.675] Server  LOG      ✓ Compiled in 146ms
+[00:13:56.979] Server  LOG      ✓ Compiled in 203ms
+[00:14:00.375] Server  LOG      ✓ Compiled in 177ms
+[00:14:01.478] Server  LOG      ✓ Compiled in 153ms
+[00:14:15.208] Server  LOG      ✓ Compiled in 176ms
+[00:14:18.361] Server  LOG      ✓ Compiled in 136ms
+[00:14:24.713] Server  LOG      ✓ Compiled in 174ms
+[00:14:42.755] Server  LOG      ✓ Compiled in 191ms
+[00:14:44.383] Server  LOG      ✓ Compiled in 147ms
+[00:14:52.557] Server  LOG      ✓ Compiled in 273ms
+[00:14:55.289] Server  LOG      ✓ Compiled in 153ms
+[00:15:20.496] Server  LOG      ✓ Compiled in 319ms
+[00:15:21.615] Browser ERROR   ./Downloads/hotel-krishna-website/app/contact/page.tsx:38:40
+Parsing ecmascript source code failed
+  36 |     icon: Mail,
+  37 |     title: "Email Address",
+> 38 |     details: ["info@hotelkrishna.com", "],
+     |                                        ^^^
+  39 |     action: "Email Karo",
+  40 |     href: "mailto:info@hotelkrishna.com",
+  41 |   },
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/hotel-krishna-website/app/contact/page.tsx [Client Component Browser]
+    ./Downloads/hotel-krishna-website/app/contact/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/hotel-krishna-website/app/contact/page.tsx [Client Component SSR]
+    ./Downloads/hotel-krishna-website/app/contact/page.tsx [Server Component]
+[00:15:38.484] Server  LOG      ✓ Compiled in 232ms
+[00:16:15.316] Server  LOG      ✓ Compiled in 231ms
+[00:16:16.503] Server  LOG      ✓ Compiled in 204ms
+[00:16:23.012] Server  LOG      ✓ Compiled in 308ms
+[00:17:51.233] Server  LOG      ✓ Compiled in 332ms
+[00:19:27.197] Server  LOG      ✓ Compiled in 270ms
+[00:19:41.394] Server  LOG      ✓ Compiled in 218ms
+[00:19:43.178] Server  LOG      ✓ Compiled in 184ms
+[00:23:17.979] Server  LOG      ✓ Compiled in 184ms
+[00:23:19.469] Server  LOG      ✓ Compiled in 174ms
+[00:23:28.034] Server  LOG      ✓ Compiled in 241ms
+[00:23:55.057] Server  LOG      ✓ Compiled in 237ms
+[00:23:56.462] Server  LOG      ✓ Compiled in 268ms
+[00:23:58.737] Server  LOG      ✓ Compiled in 184ms
+[00:24:20.683] Server  LOG      ✓ Compiled in 208ms
+[00:24:22.231] Server  LOG      ✓ Compiled in 203ms
+[00:25:27.428] Server  LOG      ✓ Compiled in 288ms
+[00:25:29.641] Server  LOG      ✓ Compiled in 228ms
+[00:25:33.918] Server  LOG      ✓ Compiled in 151ms
+[00:25:35.567] Server  LOG      ✓ Compiled in 149ms
+[00:25:49.947] Server  LOG      ✓ Compiled in 254ms
+[00:25:51.342] Server  LOG      ✓ Compiled in 136ms
+[00:25:55.056] Server  LOG      ✓ Compiled in 175ms
+[00:25:57.503] Server  LOG      ✓ Compiled in 170ms
+[00:26:00.026] Server  LOG      ✓ Compiled in 211ms
+[00:26:15.583] Server  LOG      ✓ Compiled in 145ms
+[00:26:23.365] Server  LOG      ✓ Compiled in 197ms
+[00:26:25.314] Server  LOG      ✓ Compiled in 189ms
+[00:26:27.938] Server  LOG      ✓ Compiled in 169ms
+[00:26:30.653] Server  LOG      ✓ Compiled in 131ms
+[00:26:32.439] Server  LOG      ✓ Compiled in 154ms
+[00:27:08.338] Server  LOG      ○ Compiling /career ...
+[00:27:10.082] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/career color: rgb(120, 120, 120) color: inherit {"dp":"/career","o":"http://localhost:3000/career","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765452356732}
+[00:30:42.377] Server  LOG      ✓ Compiled in 303ms
+[00:30:43.470] Server  LOG      ✓ Compiled in 231ms
+[00:30:47.996] Server  LOG      ✓ Compiled in 213ms
+[00:38:19.905] Server  LOG      ✓ Compiled in 587ms
+[00:38:30.153] Server  LOG      ✓ Compiled in 204ms
+[00:38:37.138] Server  LOG      ✓ Compiled in 201ms
+[00:39:25.311] Server  LOG      ✓ Compiled in 172ms
+[00:40:23.897] Server  LOG      ✓ Compiled in 151ms
+[00:40:25.892] Server  LOG      ✓ Compiled in 205ms
+[00:40:29.185] Server  LOG      ✓ Compiled in 206ms
+[00:40:35.047] Server  LOG      ✓ Compiled in 196ms
+[00:40:37.270] Server  LOG      ✓ Compiled in 269ms
+[00:40:40.666] Server  LOG      ✓ Compiled in 195ms
+[00:41:05.249] Server  LOG      ✓ Compiled in 152ms
+[00:41:08.622] Server  LOG      ✓ Compiled in 280ms
+[00:41:10.938] Server  LOG      ✓ Compiled in 167ms
+[00:41:12.944] Server  LOG      ✓ Compiled in 280ms
+[00:41:31.045] Server  LOG      ✓ Compiled in 269ms
+[00:41:47.106] Server  LOG      ✓ Compiled in 183ms
+[00:41:55.304] Server  LOG      ✓ Compiled in 183ms
+[00:41:57.807] Server  LOG      ✓ Compiled in 154ms
+[00:42:30.128] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765453276966}
+[00:43:02.354] Server  LOG      ✓ Compiled in 215ms
+[00:43:05.123] Server  LOG      ✓ Compiled in 200ms
+[00:43:09.584] Server  LOG      ✓ Compiled in 241ms
+[00:43:14.318] Server  LOG      ✓ Compiled in 225ms
+[00:43:16.062] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/career color: rgb(120, 120, 120) color: inherit {"dp":"/career","o":"http://localhost:3000/career","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765453322819}
+[00:43:24.615] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765453331450}
+[00:44:03.094] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:44:03.457] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:44:03.457] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/menu","route":"/menu"}
+[00:44:03.457] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/menu color: rgb(120, 120, 120) color: inherit {"dp":"/menu","o":"http://localhost:3000/menu","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765453370288}
+[00:44:03.457] Browser WARN    Image with src "/gujarati-thali-full-spread-with-kadhi-dhokla-rotla.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:46:10.765] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/menu/gujarati color: rgb(120, 120, 120) color: inherit {"dp":"/menu/gujarati","o":"http://localhost:3000/menu/gujarati","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765453497577}
+[00:47:09.057] Server  LOG      ✓ Compiled in 149ms
+[00:47:21.311] Server  LOG      ✓ Compiled in 184ms
+[00:48:00.018] Server  LOG      ✓ Compiled in 185ms
+[00:48:18.670] Server  LOG      ✓ Compiled in 331ms
+[00:49:23.341] Server  LOG      ✓ Compiled in 244ms
+[00:51:21.201] Server  LOG      ✓ Compiled in 154ms
+[00:52:22.310] Server  LOG      ✓ Compiled in 220ms
+[00:52:50.436] Server  LOG      ✓ Compiled in 170ms
+[00:54:10.931] Server  LOG      ✓ Compiled in 166ms
+[00:55:09.555] Server  LOG      ✓ Compiled in 237ms
+[00:56:57.082] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/menu color: rgb(120, 120, 120) color: inherit {"dp":"/menu","o":"http://localhost:3000/menu","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765454143911}
+[00:57:13.851] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/menu/punjabi color: rgb(120, 120, 120) color: inherit {"dp":"/menu/punjabi","o":"http://localhost:3000/menu/punjabi","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765454160663}
+[00:58:47.657] Server  LOG      ✓ Compiled in 1560ms
+[01:00:08.162] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[01:00:08.162] Browser ERROR   Image is missing required "src" property: <img>
+[01:01:59.965] Server  LOG      ✓ Compiled in 1110ms
+[01:02:10.851] Server  LOG      ✓ Compiled in 306ms
+[01:02:17.478] Server  LOG      ✓ Compiled in 343ms
+[01:02:31.866] Server  LOG      ✓ Compiled in 316ms
+[01:03:28.867] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/menu color: rgb(120, 120, 120) color: inherit {"dp":"/menu","o":"http://localhost:3000/menu","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765454535467}
+[01:13:38.481] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765455145299}

@@ -1,0 +1,9 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/career/page": "app/career/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/menu/gujarati/page": "app/menu/gujarati/page.js",
+  "/menu/page": "app/menu/page.js",
+  "/menu/punjabi/page": "app/menu/punjabi/page.js",
+  "/page": "app/page.js"
+}
