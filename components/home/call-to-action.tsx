@@ -1,6 +1,6 @@
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { Phone, MapPin } from "lucide-react"
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { Phone, MapPin } from "lucide-react";
 
 export function CallToAction() {
   return (
@@ -18,11 +18,12 @@ export function CallToAction() {
       <div className="container mx-auto px-4 lg:px-8 relative">
         <div className="bg-gradient-to-r from-krishna-purple to-krishna-purple-dark rounded-3xl p-8 md:p-12 lg:p-16 text-center text-white shadow-2xl">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold font-serif mb-4">
-            Ready to Experience <span className="text-krishna-gold">Krishna's</span> Flavors?
+            Ready to Experience{" "}
+            <span className="text-krishna-gold">Krishna's</span> Flavors?
           </h2>
           <p className="text-white/80 text-lg max-w-2xl mx-auto mb-8">
-            Visit us today and embark on a culinary journey through the authentic flavors of India. We look forward to
-            serving you!
+            Visit us today and embark on a culinary journey through the
+            authentic flavors of India. We look forward to serving you!
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
@@ -42,16 +43,18 @@ export function CallToAction() {
               variant="outline"
               className="border-white text-white hover:bg-white hover:text-krishna-purple px-8 bg-transparent"
             >
-              <a href="tel:+919876543210">
+              <a href="tel:+918780809038">
                 <Phone className="w-5 h-5 mr-2" />
                 Call Now
               </a>
             </Button>
           </div>
 
-          <p className="text-white/60 text-sm">Open Daily: 10:00 AM - 11:00 PM | Walk-ins Welcome</p>
+          <p className="text-white/60 text-sm">
+            Open Daily: 10:00 AM - 12:00 AM | Walk-ins Welcome
+          </p>
         </div>
       </div>
     </section>
-  )
+  );
 }

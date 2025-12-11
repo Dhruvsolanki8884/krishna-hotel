@@ -113,7 +113,7 @@ const menuCategories = [
         id: "punjabi",
         title: "Punjabi",
         description: "Rich, creamy, and full of robust North Indian flavors",
-        image: "/punjabi-food-butter-chicken-dal-makhani-naan-bread.jpg",
+        image: "images/panir.jpg",
         href: "/menu/punjabi",
         items: "40+ Items"
     },
@@ -129,7 +129,7 @@ const menuCategories = [
         id: "snacks",
         title: "Snacks",
         description: "Crispy, savory traditional Indian snacks and chaats",
-        image: "/indian-street-food-chaat-variety-snacks.jpg",
+        image: "/images/snacks.jpg",
         href: "/menu/snacks",
         items: "25+ Items"
     }
@@ -173,7 +173,7 @@ function MenuPage() {
                                 children: "Our Menu"
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/hotel-krishna-website/app/menu/page.tsx",
-                                lineNumber: 55,
+                                lineNumber: 57,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$hotel$2d$krishna$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -181,7 +181,7 @@ function MenuPage() {
                                 children: "Explore our diverse collection of authentic Indian cuisines, each crafted with passion and tradition"
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/hotel-krishna-website/app/menu/page.tsx",
-                                lineNumber: 56,
+                                lineNumber: 60,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -215,19 +215,19 @@ function MenuPage() {
                                             className: "object-cover group-hover:scale-110 transition-transform duration-700"
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/hotel-krishna-website/app/menu/page.tsx",
-                                            lineNumber: 74,
+                                            lineNumber: 79,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/hotel-krishna-website/app/menu/page.tsx",
-                                        lineNumber: 73,
+                                        lineNumber: 78,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$hotel$2d$krishna$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/hotel-krishna-website/app/menu/page.tsx",
-                                        lineNumber: 83,
+                                        lineNumber: 88,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$hotel$2d$krishna$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -240,7 +240,7 @@ function MenuPage() {
                                                     children: category.items
                                                 }, void 0, false, {
                                                     fileName: "[project]/Downloads/hotel-krishna-website/app/menu/page.tsx",
-                                                    lineNumber: 88,
+                                                    lineNumber: 93,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$hotel$2d$krishna$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -248,7 +248,7 @@ function MenuPage() {
                                                     children: category.title
                                                 }, void 0, false, {
                                                     fileName: "[project]/Downloads/hotel-krishna-website/app/menu/page.tsx",
-                                                    lineNumber: 91,
+                                                    lineNumber: 96,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$hotel$2d$krishna$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -256,7 +256,7 @@ function MenuPage() {
                                                     children: category.description
                                                 }, void 0, false, {
                                                     fileName: "[project]/Downloads/hotel-krishna-website/app/menu/page.tsx",
-                                                    lineNumber: 92,
+                                                    lineNumber: 99,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$hotel$2d$krishna$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -266,66 +266,66 @@ function MenuPage() {
                                                             children: "View Menu"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Downloads/hotel-krishna-website/app/menu/page.tsx",
-                                                            lineNumber: 94,
+                                                            lineNumber: 103,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$hotel$2d$krishna$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$hotel$2d$krishna$2d$website$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
                                                             className: "w-4 h-4 group-hover:translate-x-2 transition-transform"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Downloads/hotel-krishna-website/app/menu/page.tsx",
-                                                            lineNumber: 95,
+                                                            lineNumber: 104,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Downloads/hotel-krishna-website/app/menu/page.tsx",
-                                                    lineNumber: 93,
+                                                    lineNumber: 102,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Downloads/hotel-krishna-website/app/menu/page.tsx",
-                                            lineNumber: 87,
+                                            lineNumber: 92,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/hotel-krishna-website/app/menu/page.tsx",
-                                        lineNumber: 86,
+                                        lineNumber: 91,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$hotel$2d$krishna$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "absolute top-4 right-4 w-16 h-16 border-t-2 border-r-2 border-white/20 rounded-tr-lg"
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/hotel-krishna-website/app/menu/page.tsx",
-                                        lineNumber: 101,
+                                        lineNumber: 110,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$hotel$2d$krishna$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "absolute bottom-4 left-4 w-16 h-16 border-b-2 border-l-2 border-white/20 rounded-bl-lg"
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/hotel-krishna-website/app/menu/page.tsx",
-                                        lineNumber: 102,
+                                        lineNumber: 111,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, category.id, true, {
                                 fileName: "[project]/Downloads/hotel-krishna-website/app/menu/page.tsx",
-                                lineNumber: 67,
+                                lineNumber: 72,
                                 columnNumber: 15
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/Downloads/hotel-krishna-website/app/menu/page.tsx",
-                        lineNumber: 65,
+                        lineNumber: 70,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/Downloads/hotel-krishna-website/app/menu/page.tsx",
-                    lineNumber: 64,
+                    lineNumber: 69,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Downloads/hotel-krishna-website/app/menu/page.tsx",
-                lineNumber: 63,
+                lineNumber: 68,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$hotel$2d$krishna$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -338,7 +338,7 @@ function MenuPage() {
                             children: "Want to See Everything?"
                         }, void 0, false, {
                             fileName: "[project]/Downloads/hotel-krishna-website/app/menu/page.tsx",
-                            lineNumber: 112,
+                            lineNumber: 121,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$hotel$2d$krishna$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -346,7 +346,7 @@ function MenuPage() {
                             children: "Download our complete menu with all items and prices"
                         }, void 0, false, {
                             fileName: "[project]/Downloads/hotel-krishna-website/app/menu/page.tsx",
-                            lineNumber: 113,
+                            lineNumber: 124,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$hotel$2d$krishna$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$hotel$2d$krishna$2d$website$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Button"], {
@@ -355,18 +355,18 @@ function MenuPage() {
                             children: "Download Full Menu (PDF)"
                         }, void 0, false, {
                             fileName: "[project]/Downloads/hotel-krishna-website/app/menu/page.tsx",
-                            lineNumber: 116,
+                            lineNumber: 127,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Downloads/hotel-krishna-website/app/menu/page.tsx",
-                    lineNumber: 111,
+                    lineNumber: 120,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Downloads/hotel-krishna-website/app/menu/page.tsx",
-                lineNumber: 110,
+                lineNumber: 119,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$hotel$2d$krishna$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -383,7 +383,7 @@ function MenuPage() {
                                         children: "Our Specialty"
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/hotel-krishna-website/app/menu/page.tsx",
-                                        lineNumber: 127,
+                                        lineNumber: 141,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$hotel$2d$krishna$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -391,7 +391,7 @@ function MenuPage() {
                                         children: "The Famous Krishna Thali"
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/hotel-krishna-website/app/menu/page.tsx",
-                                        lineNumber: 128,
+                                        lineNumber: 144,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$hotel$2d$krishna$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -399,7 +399,7 @@ function MenuPage() {
                                         children: "Experience the complete Indian meal with our signature thali. A perfect combination of flavors, textures, and nutrition served on a traditional platter. Each thali includes a variety of dishes that represent the best of Indian cuisine."
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/hotel-krishna-website/app/menu/page.tsx",
-                                        lineNumber: 129,
+                                        lineNumber: 147,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$hotel$2d$krishna$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -418,25 +418,25 @@ function MenuPage() {
                                                         className: "w-2 h-2 rounded-full bg-krishna-gold"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/hotel-krishna-website/app/menu/page.tsx",
-                                                        lineNumber: 138,
-                                                        columnNumber: 23
+                                                        lineNumber: 163,
+                                                        columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$hotel$2d$krishna$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         children: item
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/hotel-krishna-website/app/menu/page.tsx",
-                                                        lineNumber: 139,
-                                                        columnNumber: 23
+                                                        lineNumber: 164,
+                                                        columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, index, true, {
                                                 fileName: "[project]/Downloads/hotel-krishna-website/app/menu/page.tsx",
-                                                lineNumber: 137,
-                                                columnNumber: 21
+                                                lineNumber: 162,
+                                                columnNumber: 19
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/hotel-krishna-website/app/menu/page.tsx",
-                                        lineNumber: 134,
+                                        lineNumber: 153,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$hotel$2d$krishna$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -447,7 +447,7 @@ function MenuPage() {
                                                 children: "₹249"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/hotel-krishna-website/app/menu/page.tsx",
-                                                lineNumber: 145,
+                                                lineNumber: 169,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$hotel$2d$krishna$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -455,13 +455,13 @@ function MenuPage() {
                                                 children: "per person"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/hotel-krishna-website/app/menu/page.tsx",
-                                                lineNumber: 146,
+                                                lineNumber: 172,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Downloads/hotel-krishna-website/app/menu/page.tsx",
-                                        lineNumber: 144,
+                                        lineNumber: 168,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$hotel$2d$krishna$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$hotel$2d$krishna$2d$website$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Button"], {
@@ -473,18 +473,18 @@ function MenuPage() {
                                             children: "Visit Us Today"
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/hotel-krishna-website/app/menu/page.tsx",
-                                            lineNumber: 153,
+                                            lineNumber: 179,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/hotel-krishna-website/app/menu/page.tsx",
-                                        lineNumber: 148,
+                                        lineNumber: 174,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Downloads/hotel-krishna-website/app/menu/page.tsx",
-                                lineNumber: 126,
+                                lineNumber: 140,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$hotel$2d$krishna$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -499,48 +499,48 @@ function MenuPage() {
                                             className: "object-cover"
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/hotel-krishna-website/app/menu/page.tsx",
-                                            lineNumber: 158,
+                                            lineNumber: 184,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/hotel-krishna-website/app/menu/page.tsx",
-                                        lineNumber: 157,
+                                        lineNumber: 183,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$hotel$2d$krishna$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "absolute -bottom-6 -left-6 w-32 h-32 bg-krishna-gold/20 rounded-2xl -z-10"
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/hotel-krishna-website/app/menu/page.tsx",
-                                        lineNumber: 165,
+                                        lineNumber: 191,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$hotel$2d$krishna$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "absolute -top-6 -right-6 w-24 h-24 bg-white/10 rounded-2xl -z-10"
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/hotel-krishna-website/app/menu/page.tsx",
-                                        lineNumber: 166,
+                                        lineNumber: 192,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Downloads/hotel-krishna-website/app/menu/page.tsx",
-                                lineNumber: 156,
+                                lineNumber: 182,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Downloads/hotel-krishna-website/app/menu/page.tsx",
-                        lineNumber: 125,
+                        lineNumber: 139,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/Downloads/hotel-krishna-website/app/menu/page.tsx",
-                    lineNumber: 124,
+                    lineNumber: 138,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Downloads/hotel-krishna-website/app/menu/page.tsx",
-                lineNumber: 123,
+                lineNumber: 137,
                 columnNumber: 7
             }, this)
         ]

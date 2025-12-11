@@ -1,7 +1,7 @@
-import Image from "next/image"
-import Link from "next/link"
-import { ArrowLeft } from "lucide-react"
-import { Badge } from "@/components/ui/badge"
+import Image from "next/image";
+import Link from "next/link";
+import { ArrowLeft } from "lucide-react";
+import { Badge } from "@/components/ui/badge";
 
 const snacksMenu = {
   gujaratiSnacks: [
@@ -46,14 +46,19 @@ const snacksMenu = {
     { name: "Fresh Lime Soda", price: "₹50" },
     { name: "Cold Coffee", price: "₹90" },
   ],
-}
+};
 
 export default function SnacksMenuPage() {
   return (
     <>
       {/* Hero Section */}
       <section className="relative h-[40vh] min-h-[300px] flex items-center justify-center overflow-hidden">
-        <Image src="/indian-street-food-chaat-variety-snacks.jpg" alt="Indian Snacks" fill className="object-cover" />
+        <Image
+          src="/indian-street-food-chaat-variety-snacks.jpg"
+          alt="Indian Snacks"
+          fill
+          className="object-cover"
+        />
         <div className="absolute inset-0 bg-gradient-to-r from-krishna-purple-dark/90 to-krishna-purple/70" />
         <div className="relative z-10 text-center text-white px-4">
           <Link
@@ -63,8 +68,12 @@ export default function SnacksMenuPage() {
             <ArrowLeft className="w-4 h-4" />
             Back to Menu
           </Link>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-serif">Snacks & Chaats</h1>
-          <p className="text-white/80 mt-4">Crispy, savory, and irresistibly delicious</p>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-serif">
+            Snacks & Chaats
+          </h1>
+          <p className="text-white/80 mt-4">
+            Crispy, savory, and irresistibly delicious
+          </p>
         </div>
       </section>
 
@@ -85,10 +94,16 @@ export default function SnacksMenuPage() {
                       key={index}
                       className="flex flex-col items-center text-center p-4 bg-card rounded-xl border border-border hover:border-krishna-gold/50 transition-colors"
                     >
-                      <span className="font-medium text-foreground text-sm mb-1">{item.name}</span>
-                      <span className="text-krishna-gold font-bold">{item.price}</span>
+                      <span className="font-medium text-foreground text-sm mb-1">
+                        {item.name}
+                      </span>
+                      <span className="text-krishna-gold font-bold">
+                        {item.price}
+                      </span>
                       {item.popular && (
-                        <Badge className="bg-krishna-gold/20 text-krishna-gold text-xs mt-2">Popular</Badge>
+                        <Badge className="bg-krishna-gold/20 text-krishna-gold text-xs mt-2">
+                          Popular
+                        </Badge>
                       )}
                     </div>
                   ))}
@@ -106,10 +121,16 @@ export default function SnacksMenuPage() {
                       key={index}
                       className="flex flex-col items-center text-center p-4 bg-card rounded-xl border border-border hover:border-krishna-gold/50 transition-colors"
                     >
-                      <span className="font-medium text-foreground text-sm mb-1">{item.name}</span>
-                      <span className="text-krishna-gold font-bold">{item.price}</span>
+                      <span className="font-medium text-foreground text-sm mb-1">
+                        {item.name}
+                      </span>
+                      <span className="text-krishna-gold font-bold">
+                        {item.price}
+                      </span>
                       {item.popular && (
-                        <Badge className="bg-krishna-gold/20 text-krishna-gold text-xs mt-2">Must Try</Badge>
+                        <Badge className="bg-krishna-gold/20 text-krishna-gold text-xs mt-2">
+                          Must Try
+                        </Badge>
                       )}
                     </div>
                   ))}
@@ -127,8 +148,12 @@ export default function SnacksMenuPage() {
                       key={index}
                       className="flex flex-col items-center text-center p-4 bg-card rounded-xl border border-border"
                     >
-                      <span className="font-medium text-foreground text-sm mb-1">{item.name}</span>
-                      <span className="text-krishna-gold font-bold">{item.price}</span>
+                      <span className="font-medium text-foreground text-sm mb-1">
+                        {item.name}
+                      </span>
+                      <span className="text-krishna-gold font-bold">
+                        {item.price}
+                      </span>
                     </div>
                   ))}
                 </div>
@@ -145,8 +170,12 @@ export default function SnacksMenuPage() {
                       key={index}
                       className="flex justify-between items-center p-4 bg-card rounded-xl border border-border"
                     >
-                      <span className="font-medium text-foreground">{item.name}</span>
-                      <span className="text-krishna-gold font-bold">{item.price}</span>
+                      <span className="font-medium text-foreground">
+                        {item.name}
+                      </span>
+                      <span className="text-krishna-gold font-bold">
+                        {item.price}
+                      </span>
                     </div>
                   ))}
                 </div>
@@ -163,8 +192,12 @@ export default function SnacksMenuPage() {
                       key={index}
                       className="flex flex-col items-center text-center p-4 bg-card rounded-xl border border-border"
                     >
-                      <span className="font-medium text-foreground text-sm mb-1">{item.name}</span>
-                      <span className="text-krishna-gold font-bold">{item.price}</span>
+                      <span className="font-medium text-foreground text-sm mb-1">
+                        {item.name}
+                      </span>
+                      <span className="text-krishna-gold font-bold">
+                        {item.price}
+                      </span>
                     </div>
                   ))}
                 </div>
@@ -177,7 +210,7 @@ export default function SnacksMenuPage() {
                 {/* Featured Image */}
                 <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-xl">
                   <Image
-                    src="/sev-puri-indian-street-food-chaat.jpg"
+                    src="\images\methinabhajiya.jpg"
                     alt="Indian Snacks"
                     fill
                     className="object-cover"
@@ -188,7 +221,8 @@ export default function SnacksMenuPage() {
                 <div className="bg-krishna-purple text-white rounded-2xl p-6">
                   <h3 className="font-bold text-lg mb-4">Snack Time</h3>
                   <p className="text-white/80 text-sm leading-relaxed mb-4">
-                    Our snacks are made fresh throughout the day using traditional recipes and the finest ingredients.
+                    Our snacks are made fresh throughout the day using
+                    traditional recipes and the finest ingredients.
                   </p>
                   <ul className="space-y-2 text-sm">
                     <li className="flex items-center gap-2">
@@ -212,7 +246,9 @@ export default function SnacksMenuPage() {
                   <p className="text-sm opacity-80 mb-4">4 PM - 7 PM Daily</p>
                   <p className="font-serif text-xl">Fafda + Jalebi Combo</p>
                   <p className="font-bold text-2xl mt-2">₹99</p>
-                  <p className="text-xs mt-2 opacity-70">*With complimentary chai</p>
+                  <p className="text-xs mt-2 opacity-70">
+                    *With complimentary chai
+                  </p>
                 </div>
               </div>
             </div>
@@ -220,5 +256,5 @@ export default function SnacksMenuPage() {
         </div>
       </section>
     </>
-  )
+  );
 }

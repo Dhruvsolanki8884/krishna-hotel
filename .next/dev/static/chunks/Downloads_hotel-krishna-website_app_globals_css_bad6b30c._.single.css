@@ -1148,18 +1148,6 @@
     height: 60vh;
   }
 
-  .h-\[75vh\] {
-    height: 75vh;
-  }
-
-  .h-\[78vh\] {
-    height: 78vh;
-  }
-
-  .h-\[85vh\] {
-    height: 85vh;
-  }
-
   .h-\[280px\] {
     height: 280px;
   }
@@ -5605,32 +5593,8 @@
   }
 
   @media (min-width: 40rem) {
-    .sm\:h-\[5\.vh\] {
-      height: 5. vh;
-    }
-  }
-
-  @media (min-width: 40rem) {
-    .sm\:h-\[5vh\] {
-      height: 5vh;
-    }
-  }
-
-  @media (min-width: 40rem) {
     .sm\:h-\[45vh\] {
       height: 45vh;
-    }
-  }
-
-  @media (min-width: 40rem) {
-    .sm\:h-\[50vh\] {
-      height: 50vh;
-    }
-  }
-
-  @media (min-width: 40rem) {
-    .sm\:h-\[85vh\] {
-      height: 85vh;
     }
   }
 
@@ -5649,12 +5613,6 @@
   @media (min-width: 40rem) {
     .sm\:h-\[350px\] {
       height: 350px;
-    }
-  }
-
-  @media (min-width: 40rem) {
-    .sm\:h-\[vh\] {
-      height: vh;
     }
   }
 
@@ -6253,12 +6211,6 @@
   @media (min-width: 48rem) {
     .md\:h-\[50vh\] {
       height: 50vh;
-    }
-  }
-
-  @media (min-width: 48rem) {
-    .md\:h-\[85vh\] {
-      height: 85vh;
     }
   }
 

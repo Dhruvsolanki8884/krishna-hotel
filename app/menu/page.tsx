@@ -1,7 +1,7 @@
-import Image from "next/image"
-import Link from "next/link"
-import { ArrowRight } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import Image from "next/image";
+import Link from "next/link";
+import { ArrowRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const menuCategories = [
   {
@@ -16,7 +16,7 @@ const menuCategories = [
     id: "punjabi",
     title: "Punjabi",
     description: "Rich, creamy, and full of robust North Indian flavors",
-    image: "/punjabi-food-butter-chicken-dal-makhani-naan-bread.jpg",
+    image: "images/panir.jpg",
     href: "/menu/punjabi",
     items: "40+ Items",
   },
@@ -32,11 +32,11 @@ const menuCategories = [
     id: "snacks",
     title: "Snacks",
     description: "Crispy, savory traditional Indian snacks and chaats",
-    image: "/indian-street-food-chaat-variety-snacks.jpg",
+    image: "/images/snacks.jpg",
     href: "/menu/snacks",
     items: "25+ Items",
   },
-]
+];
 
 export default function MenuPage() {
   return (
@@ -51,10 +51,15 @@ export default function MenuPage() {
         />
         <div className="absolute inset-0 bg-gradient-to-r from-krishna-purple-dark/90 to-krishna-purple/70" />
         <div className="relative z-10 text-center text-white px-4">
-          <p className="text-krishna-gold text-sm font-semibold tracking-wider uppercase mb-4">Discover Our Flavors</p>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-serif mb-4">Our Menu</h1>
+          <p className="text-krishna-gold text-sm font-semibold tracking-wider uppercase mb-4">
+            Discover Our Flavors
+          </p>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-serif mb-4">
+            Our Menu
+          </h1>
           <p className="text-white/80 text-lg max-w-2xl mx-auto">
-            Explore our diverse collection of authentic Indian cuisines, each crafted with passion and tradition
+            Explore our diverse collection of authentic Indian cuisines, each
+            crafted with passion and tradition
           </p>
         </div>
       </section>
@@ -88,8 +93,12 @@ export default function MenuPage() {
                     <span className="inline-block px-3 py-1 bg-krishna-gold text-krishna-purple-dark text-xs font-semibold rounded-full mb-3">
                       {category.items}
                     </span>
-                    <h2 className="text-2xl md:text-3xl font-bold text-white font-serif mb-2">{category.title}</h2>
-                    <p className="text-white/80 mb-4 max-w-sm">{category.description}</p>
+                    <h2 className="text-2xl md:text-3xl font-bold text-white font-serif mb-2">
+                      {category.title}
+                    </h2>
+                    <p className="text-white/80 mb-4 max-w-sm">
+                      {category.description}
+                    </p>
                     <div className="flex items-center gap-2 text-krishna-gold font-medium">
                       <span>View Menu</span>
                       <ArrowRight className="w-4 h-4 group-hover:translate-x-2 transition-transform" />
@@ -109,11 +118,16 @@ export default function MenuPage() {
       {/* View Full Menu CTA */}
       <section className="py-16 bg-muted/30">
         <div className="container mx-auto px-4 lg:px-8 text-center">
-          <h2 className="text-2xl md:text-3xl font-bold font-serif text-foreground mb-4">Want to See Everything?</h2>
+          <h2 className="text-2xl md:text-3xl font-bold font-serif text-foreground mb-4">
+            Want to See Everything?
+          </h2>
           <p className="text-muted-foreground mb-8 max-w-xl mx-auto">
             Download our complete menu with all items and prices
           </p>
-          <Button size="lg" className="bg-krishna-purple hover:bg-krishna-purple-dark text-white">
+          <Button
+            size="lg"
+            className="bg-krishna-purple hover:bg-krishna-purple-dark text-white"
+          >
             Download Full Menu (PDF)
           </Button>
         </div>
@@ -124,25 +138,37 @@ export default function MenuPage() {
         <div className="container mx-auto px-4 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <p className="text-krishna-gold text-sm font-semibold tracking-wider uppercase mb-2">Our Specialty</p>
-              <h2 className="text-3xl md:text-4xl font-bold font-serif mb-6">The Famous Krishna Thali</h2>
+              <p className="text-krishna-gold text-sm font-semibold tracking-wider uppercase mb-2">
+                Our Specialty
+              </p>
+              <h2 className="text-3xl md:text-4xl font-bold font-serif mb-6">
+                The Famous Krishna Thali
+              </h2>
               <p className="text-white/80 mb-6 leading-relaxed">
-                Experience the complete Indian meal with our signature thali. A perfect combination of flavors,
-                textures, and nutrition served on a traditional platter. Each thali includes a variety of dishes that
-                represent the best of Indian cuisine.
+                Experience the complete Indian meal with our signature thali. A
+                perfect combination of flavors, textures, and nutrition served
+                on a traditional platter. Each thali includes a variety of
+                dishes that represent the best of Indian cuisine.
               </p>
               <ul className="space-y-3 mb-8">
-                {["Unlimited Rotis", "2 Premium Sabjis", "Dal & Rice", "Papad & Salad", "Sweet Dish", "Buttermilk"].map(
-                  (item, index) => (
-                    <li key={index} className="flex items-center gap-3">
-                      <div className="w-2 h-2 rounded-full bg-krishna-gold" />
-                      <span>{item}</span>
-                    </li>
-                  ),
-                )}
+                {[
+                  "Unlimited Rotis",
+                  "2 Premium Sabjis",
+                  "Dal & Rice",
+                  "Papad & Salad",
+                  "Sweet Dish",
+                  "Buttermilk",
+                ].map((item, index) => (
+                  <li key={index} className="flex items-center gap-3">
+                    <div className="w-2 h-2 rounded-full bg-krishna-gold" />
+                    <span>{item}</span>
+                  </li>
+                ))}
               </ul>
               <div className="flex items-baseline gap-2 mb-6">
-                <span className="text-4xl font-bold text-krishna-gold">₹249</span>
+                <span className="text-4xl font-bold text-krishna-gold">
+                  ₹249
+                </span>
                 <span className="text-white/60">per person</span>
               </div>
               <Button
@@ -169,5 +195,5 @@ export default function MenuPage() {
         </div>
       </section>
     </>
-  )
+  );
 }

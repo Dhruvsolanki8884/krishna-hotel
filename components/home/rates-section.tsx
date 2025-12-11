@@ -6,7 +6,7 @@ const mealPlans = [
   {
     id: "basic",
     name: "Simple Thali",
-    price: "₹120",
+    price: "₹140",
     description: "Quick meal mate perfect",
     features: ["2 Rotla / Bhakri", "1 Shaak", "Dal", "Bhaat", "Salad", "Papad"],
     popular: false,
@@ -31,7 +31,7 @@ const mealPlans = [
   {
     id: "royal",
     name: "Royal Thali",
-    price: "₹250",
+    price: "₹200",
     description: "Special occasion mate grand feast",
     features: [
       "Unlimited Rotla",
