@@ -1,10 +1,10 @@
-"use client"
+"use client";
 
-import { useState, useEffect } from "react"
-import Link from "next/link"
-import Image from "next/image"
-import { Menu, X, ChevronRight, Phone } from "lucide-react"
-import { cn } from "@/lib/utils"
+import { useState, useEffect } from "react";
+import Link from "next/link";
+import Image from "next/image";
+import { Menu, X, ChevronRight, Phone } from "lucide-react";
+import { cn } from "@/lib/utils";
 
 const navLinks = [
   { href: "/", label: "Home" },
@@ -12,37 +12,39 @@ const navLinks = [
   { href: "/menu", label: "Menu" },
   { href: "/contact", label: "Contact Us" },
   { href: "/career", label: "Career" },
-]
+];
 
 export function Navbar() {
-  const [isOpen, setIsOpen] = useState(false)
-  const [scrolled, setScrolled] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 20)
-    }
-    window.addEventListener("scroll", handleScroll)
-    return () => window.removeEventListener("scroll", handleScroll)
-  }, [])
+      setScrolled(window.scrollY > 20);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   useEffect(() => {
     if (isOpen) {
-      document.body.style.overflow = "hidden"
+      document.body.style.overflow = "hidden";
     } else {
-      document.body.style.overflow = "unset"
+      document.body.style.overflow = "unset";
     }
     return () => {
-      document.body.style.overflow = "unset"
-    }
-  }, [isOpen])
+      document.body.style.overflow = "unset";
+    };
+  }, [isOpen]);
 
   return (
     <>
       <header
         className={cn(
           "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
-          scrolled ? "bg-background/95 backdrop-blur-md shadow-lg" : "bg-transparent",
+          scrolled
+            ? "bg-background/95 backdrop-blur-md shadow-lg"
+            : "bg-transparent"
         )}
       >
         <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -62,7 +64,7 @@ export function Navbar() {
                 <h1
                   className={cn(
                     "text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold font-serif transition-colors",
-                    scrolled ? "text-primary" : "text-white",
+                    scrolled ? "text-primary" : "text-white"
                   )}
                 >
                   Hotel Krishna
@@ -70,7 +72,7 @@ export function Navbar() {
                 <p
                   className={cn(
                     "text-[10px] sm:text-xs md:text-sm tracking-wider transition-colors",
-                    scrolled ? "text-muted-foreground" : "text-white/80",
+                    scrolled ? "text-muted-foreground" : "text-white/80"
                   )}
                 >
                   Kathiawadi Swad
@@ -86,7 +88,7 @@ export function Navbar() {
                   href={link.href}
                   className={cn(
                     "text-base lg:text-lg xl:text-xl font-medium transition-all duration-200 hover:text-krishna-gold relative group",
-                    scrolled ? "text-foreground" : "text-white",
+                    scrolled ? "text-foreground" : "text-white"
                   )}
                 >
                   {link.label}
@@ -100,12 +102,26 @@ export function Navbar() {
               onClick={() => setIsOpen(!isOpen)}
               className={cn(
                 "lg:hidden z-50 p-2 rounded-lg transition-colors",
-                isOpen ? "text-white" : scrolled ? "text-foreground" : "text-white",
+                isOpen
+                  ? "text-white"
+                  : scrolled
+                  ? "text-foreground"
+                  : "text-white"
               )}
               aria-label="Toggle menu"
             >
-              <Menu className={cn("w-6 h-6 sm:w-7 sm:h-7", isOpen ? "hidden" : "block")} />
-              <X className={cn("w-6 h-6 sm:w-7 sm:h-7", isOpen ? "block" : "hidden")} />
+              <Menu
+                className={cn(
+                  "w-6 h-6 sm:w-7 sm:h-7",
+                  isOpen ? "hidden" : "block"
+                )}
+              />
+              <X
+                className={cn(
+                  "w-6 h-6 sm:w-7 sm:h-7",
+                  isOpen ? "block" : "hidden"
+                )}
+              />
             </button>
           </div>
         </nav>
@@ -115,7 +131,7 @@ export function Navbar() {
       <div
         className={cn(
           "fixed inset-0 bg-black/80 backdrop-blur-sm z-40 transition-opacity duration-300 lg:hidden",
-          isOpen ? "opacity-100" : "opacity-0 pointer-events-none",
+          isOpen ? "opacity-100" : "opacity-0 pointer-events-none"
         )}
         onClick={() => setIsOpen(false)}
       />
@@ -124,7 +140,7 @@ export function Navbar() {
       <aside
         className={cn(
           "fixed top-0 right-0 h-full w-full sm:w-80 sm:max-w-[85vw] bg-gradient-to-b from-krishna-purple to-krishna-purple-dark z-40 transform transition-transform duration-300 ease-out lg:hidden",
-          isOpen ? "translate-x-0" : "translate-x-full",
+          isOpen ? "translate-x-0" : "translate-x-full"
         )}
       >
         <div className="flex flex-col h-full pt-20 sm:pt-24 pb-6 sm:pb-8 px-5 sm:px-6">
@@ -145,7 +161,9 @@ export function Navbar() {
                   style={{ transitionDelay: `${index * 50}ms` }}
                   className={cn(
                     "transform transition-all duration-300",
-                    isOpen ? "translate-x-0 opacity-100" : "translate-x-8 opacity-0",
+                    isOpen
+                      ? "translate-x-0 opacity-100"
+                      : "translate-x-8 opacity-0"
                   )}
                 >
                   <Link
@@ -165,10 +183,12 @@ export function Navbar() {
           <div className="border-t border-white/20 pt-5 sm:pt-6 mt-4 sm:mt-6 space-y-4">
             <div className="text-center">
               <p className="text-white/80 text-xs sm:text-sm">Daily Open</p>
-              <p className="text-krishna-gold font-semibold text-base sm:text-lg">7:00 AM - 11:00 PM</p>
+              <p className="text-krishna-gold font-semibold text-base sm:text-lg">
+                10:00 AM - 12:00 AM
+              </p>
             </div>
             <a
-              href="tel:+919876543210"
+              href="tel:+918780809038"
               className="flex items-center justify-center gap-2 bg-krishna-gold text-krishna-purple-dark font-semibold py-3 sm:py-4 rounded-xl hover:bg-krishna-gold-light transition-colors"
             >
               <Phone className="w-4 h-4 sm:w-5 sm:h-5" />
@@ -178,5 +198,5 @@ export function Navbar() {
         </div>
       </aside>
     </>
-  )
+  );
 }

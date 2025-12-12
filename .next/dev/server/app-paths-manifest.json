@@ -1,5 +1,8 @@
 {
-  "/about/page": "app/about/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/career/page": "app/career/page.js",
+  "/menu/chinese/page": "app/menu/chinese/page.js",
+  "/menu/page": "app/menu/page.js",
   "/menu/punjabi/page": "app/menu/punjabi/page.js",
   "/page": "app/page.js"
 }
